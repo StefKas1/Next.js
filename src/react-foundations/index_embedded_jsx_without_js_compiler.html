@@ -1,0 +1,13 @@
+<html>
+  <body>
+    <div id="app"></div>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <!-- Will not work, JSX must be compiled into JS so that browser understands it, but no compiler is provided -->
+    <script>
+      const app = document.getElementById("app");
+      const root = ReactDOM.createRoot(app);
+      root.render(<h1>Develop. Preview. Ship.</h1>);
+    </script>
+  </body>
+</html>
