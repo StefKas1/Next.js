@@ -23,3 +23,14 @@ const f = function (x) {
 };
 
 console.log(f(10));
+
+// args
+function sum_nums(num1, ...nums) {
+  let total = 0;
+  for (let i = 0; i < nums.length; i++) {
+    total += nums[i];
+  }
+  console.log(total);
+}
+
+sum_nums(1, 10, 20, 30);
