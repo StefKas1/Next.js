@@ -34,3 +34,7 @@ function sum_nums(num1, ...nums) {
 }
 
 sum_nums(1, 10, 20, 30);
+
+// Arrow function
+const square = (s) => s * s;
+console.log(square(2));
